@@ -40,7 +40,9 @@ export default function ProjectModal({
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4"
       onClick={handleBackdropClick}
     >
-      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg w-full max-w-7xl relative max-h-[90vh] overflow-y-auto p-6">
+      <div
+        className="bg-white dark:bg-gray-800 rounded-xl shadow-lg w-full max-w-7xl relative max-h-[90vh] overflow-y-auto p-6 select-none"
+      >
         {/* Close Button */}
         <button
           onClick={onClose}
@@ -65,6 +67,7 @@ export default function ProjectModal({
                 alt={`Project Image ${index + 1}`}
                 style={{ height: project.height }}
                 className="rounded-xl w-full object-contain"
+                draggable={false}
               />
             </SwiperSlide>
           ))}
