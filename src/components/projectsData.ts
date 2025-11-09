@@ -9,7 +9,6 @@ export interface Project {
   height: string;
   category: ProjectCategory;
   techStack: string[];
-  demoLink: string;
   githubLink: string;
   duration: string;
   achievements: string[];
@@ -17,6 +16,80 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  // *********************************************
+  // DRIVE-TN
+  // *********************************************
+  {
+    title: "DRIVE-TN",
+    description:
+      "DRIVE-TN is an online vehicle sales platform featuring <span style='font-weight: bold;'>3D vehicle visualization</span> and real-time updates, developed with a robust backend and intuitive frontend.",
+    image: "../../assets/DriveTn/0.png",
+    images: [
+      "../../assets/DriveTn/0.png",
+      "../../assets/DriveTn/1.png",
+      "../../assets/DriveTn/2.png",
+      "../../assets/DriveTn/3.png",
+      "../../assets/DriveTn/4.png",
+      "../../assets/DriveTn/5.png",
+      "../../assets/DriveTn/6.png",
+      "../../assets/DriveTn/7.png",
+      "../../assets/DriveTn/8.png",
+      "../../assets/DriveTn/9.png",
+      "../../assets/DriveTn/10.png",
+      "../../assets/DriveTn/11.png",
+      "../../assets/DriveTn/12.png",
+      "../../assets/DriveTn/13.png",
+      "../../assets/DriveTn/14.png",
+      "../../assets/DriveTn/15.png",
+      "../../assets/DriveTn/16.png",
+      "../../assets/DriveTn/17.png",
+      "../../assets/DriveTn/18.png",
+      "../../assets/DriveTn/19.png",
+      "../../assets/DriveTn/20.png",
+      "../../assets/DriveTn/21.png",
+      "../../assets/DriveTn/22.png",
+      "../../assets/DriveTn/23.png",
+      "../../assets/DriveTn/24.png",
+      "../../assets/DriveTn/25.png",
+      "../../assets/DriveTn/26.png",
+      "../../assets/DriveTn/27.png",
+      "../../assets/DriveTn/28.png",
+      "../../assets/DriveTn/29.png",
+      "../../assets/DriveTn/30.png",
+    ],
+    height: "400px",
+    category: "Websites",
+    techStack: [
+      "React.js",
+      "Nest.js",
+      "TypeScript",
+      "MySQL",
+      "RabbitMQ",
+      "WebSockets",
+      "Cloudinary",
+      "CloudAMQP",
+      "Collab",
+      "Python",
+      "Hugging Face",
+      "RTK Query",
+      "Bitbucket",
+      "Jira",
+      "Figma",
+    ],
+    githubLink: "",
+    duration: "4 Months",
+    achievements: [
+      "Developed backend APIs using Nest.js and TypeScript with clean code and best practices.",
+      "Designed and developed frontend components with React.js for a responsive user interface.",
+      "Integrated real-time features using WebSockets, RabbitMQ, and RTK Query.",
+      "Implemented 3D vehicle visualization using Python and Hugging Face AI models.",
+      "Managed project and version control using Bitbucket and Jira.",
+      "Created an intuitive UI/UX for smooth vehicle browsing, search, and purchase process.",
+      "Optimized performance, scalability, and maintainability.",
+    ],
+    longer_description:
+      "DRIVE-TN is a comprehensive online car sales application with 3D vehicle visualization, built for high performance and scalability. The backend is powered by Nest.js and TypeScript, real-time features via RabbitMQ and WebSockets. The frontend uses React.js to provide an intuitive user experience, while Python and Hugging Face models generate 3D vehicle models. Project management was handled with Bitbucket and Jira, ensuring clean, maintainable code and adherence to best practices.",
+  },
   // *********************************************
   // AGTIA
   // *********************************************
@@ -47,7 +120,6 @@ export const projects: Project[] = [
       "Redux",
       "Figma",
     ],
-    demoLink: "https://demo.com",
     githubLink: "https://github.com/Med-1-Amine-9-Chakroun/AGTIA",
     duration: "2 Months",
     achievements: [
@@ -78,7 +150,6 @@ export const projects: Project[] = [
     height: "400px",
     category: "Mobile",
     techStack: ["React Native", "The Dog API", "Git", "Github"],
-    demoLink: "https://demo.com",
     githubLink: "https://github.com/Med-1-Amine-9-Chakroun/online-dog-show",
     duration: "1 Week",
     achievements: [
@@ -115,7 +186,6 @@ export const projects: Project[] = [
       "Git",
       "Github",
     ],
-    demoLink: "https://demo.com",
     githubLink: "https://github.com/Med-1-Amine-9-Chakroun/Gym-Tracker",
     duration: "1 Week",
     achievements: [
@@ -146,7 +216,6 @@ export const projects: Project[] = [
     category: "Websites",
     height: "400px",
     techStack: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    demoLink: "https://demo.com",
     githubLink: "https://github.com/Med-1-Amine-9-Chakroun/Pharmin",
     duration: "3 Weeks",
     achievements: [
@@ -180,7 +249,6 @@ export const projects: Project[] = [
     category: "Applications",
     height: "400px",
     techStack: ["Python", "QtDesigner", "Sqlite3", "FPDF"],
-    demoLink: "https://demo.com",
     githubLink: "",
     duration: "2 Months",
     achievements: [
@@ -220,7 +288,6 @@ export const projects: Project[] = [
     category: "Applications",
     height: "400px",
     techStack: ["Python", "QtDesigner", "Firebase"],
-    demoLink: "https://demo.com",
     githubLink: "",
     duration: "3 Months",
     achievements: [
@@ -249,7 +316,6 @@ export const projects: Project[] = [
     category: "Applications",
     height: "400px",
     techStack: ["Python", "QtDesigner"],
-    demoLink: "https://demo.com",
     githubLink: "https://github.com/Med-1-Amine-9-Chakroun/CodeMeter",
     duration: "5 Days",
     achievements: [
@@ -276,7 +342,6 @@ export const projects: Project[] = [
     category: "Websites",
     height: "400px",
     techStack: ["Reactjs", "CSS", "LocalStorage"],
-    demoLink: "https://demo.com",
     githubLink: "https://github.com/Med-1-Amine-9-Chakroun/PlantStore",
     duration: "1 Week",
     achievements: [
@@ -300,7 +365,6 @@ export const projects: Project[] = [
     category: "Websites",
     height: "400px",
     techStack: ["Reactjs", "JavaScript", "CSS"],
-    demoLink: "https://demo.com",
     githubLink: "https://github.com/Med-1-Amine-9-Chakroun/ToDoList",
     duration: "1 Day",
     achievements: [

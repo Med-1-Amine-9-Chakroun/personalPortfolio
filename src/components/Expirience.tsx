@@ -1,11 +1,10 @@
 import React from "react";
-// import "./style.css";
 
 export default function Experience() {
   const educationData = [
     {
-      year: "2022 – Present",
-      title: "Engineering Cycle in Computer Science ",
+      year: "2022 – 2025",
+      title: "Engineering Cycle in Computer Science",
       description: "Institut Supérieur Privé d’Ingénierie de Monastir - ESPRIM",
     },
     {
@@ -16,41 +15,115 @@ export default function Experience() {
     },
     {
       year: "2015 – 2018",
-      title: "Baccalauréat in Computer Science ",
+      title: "Baccalauréat in Computer Science",
       description: "High School of Sayada",
     },
   ];
 
   const experienceData = [
     {
-      year: "2018 – Present",
-      title: "Private Tutoring",
-      description:
-        "Teaching computer science to high school students with a personalized approach, resulting in improved performance for 65% of students.",
+      year: "July 2025 – Present",
+      title: "Backend Software Engineer | Anypli",
+      description: (
+        <>
+          Developing and maintaining scalable backend APIs using{" "}
+          <span className="font-bold">Nest.js</span>,{" "}
+          <span className="font-bold">TypeScript</span>, and{" "}
+          <span className="font-bold">MySQL</span>. Implementing caching with{" "}
+          <span className="font-bold">Redis</span> and concurrency control using{" "}
+          <span className="font-bold">Mutex</span> to ensure data integrity and
+          performance. Leveraging <span className="font-bold">Docker</span> for
+          containerized environments and using{" "}
+          <span className="font-bold">Bitbucket</span> and{" "}
+          <span className="font-bold">Jira</span> for version control and project
+          management. Committed to writing clean, maintainable code and following
+          software engineering best practices.
+        </>
+      ),
+    },
+    {
+      year: "February 2025 – June 2025",
+      title: "Final-Year Internship | Anypli",
+      description: (
+        <>
+          Contributed to <span className="font-bold">DRIVE-TN</span>, an online
+          car sales platform with 3D vehicle visualization. Developed backend APIs
+          with <span className="font-bold">Nest.js</span> and{" "}
+          <span className="font-bold">TypeScript</span>, and frontend components
+          with <span className="font-bold">React.js</span>. Managed data with{" "}
+          <span className="font-bold">MySQL</span> and coordinated development
+          using <span className="font-bold">Bitbucket</span> and{" "}
+          <span className="font-bold">Jira</span>. Implemented real-time features
+          using <span className="font-bold">RTK Query</span>,{" "}
+          <span className="font-bold">RabbitMQ</span>, and{" "}
+          <span className="font-bold">WebSockets</span>, and leveraged{" "}
+          <span className="font-bold">Python</span> with{" "}
+          <span className="font-bold">Hugging Face</span> to generate 3D vehicle
+          models using advanced AI techniques.
+        </>
+      ),
     },
     {
       year: "July 2024 – September 2024",
       title: "Technician Internship | Mobelite Tunisie",
-      description:
-        "Developed a task management web application (AGTIA) using the MERN stack (React.js, Node.js, Express.js, MongoDB) with a microservices architecture focused on modularity and data efficiency.",
+      description: (
+        <>
+          Developed a task management web application (<span className="font-bold">AGTIA</span>) using the{" "}
+          <span className="font-bold">MERN stack</span> (
+          <span className="font-bold">MongoDB</span>,{" "}
+          <span className="font-bold">Express.js</span>,{" "}
+          <span className="font-bold">React.js</span>,{" "}
+          <span className="font-bold">Node.js</span>) with a{" "}
+          <span className="font-bold">microservices</span> architecture focused
+          on modularity and data efficiency.
+        </>
+      ),
+    },
+    {
+      year: "September 2023 – November 2023",
+      title: "Freelance | Seamaster Project",
+      description: (
+        <>
+          Designed a desktop application for trawler management and invoicing
+          using <span className="font-bold">Python</span> and{" "}
+          <span className="font-bold">SQLite3</span>, reducing processing time by
+          60%.
+        </>
+      ),
     },
     {
       year: "July 2023 – August 2023",
       title: "Summer Internship | PSZ Tunisie",
-      description:
-        "Contributed to the development of features for a web application using C# .NET and Angular, participating in team meetings and code reviews.",
+      description: (
+        <>
+          Contributed to the development of features for a web application using{" "}
+          <span className="font-bold">C# .NET</span> and{" "}
+          <span className="font-bold">Angular</span>, participating in team
+          meetings and code reviews.
+        </>
+      ),
     },
     {
-      year: "September 2023 – November 20233",
-      title: "Freelance | Seamaster Project ",
-      description:
-        "Designed a desktop application for trawler management and invoicing using Python and SQLite3, reducing processing time by 60%.",
-    },
-    {
-      year: "JMarch 2022 – June 2022",
+      year: "March 2022 – June 2022",
       title: "Final-Year Internship | Infolib",
-      description:
-        "Developed the 'RAPIDO' application for delivery management using Python and Flutter, significantly reducing order processing time.",
+      description: (
+        <>
+          Developed the <span className="font-bold">'RAPIDO'</span> application
+          for delivery management using <span className="font-bold">Python</span>{" "}
+          and <span className="font-bold">Flutter</span>, significantly reducing
+          order processing time.
+        </>
+      ),
+    },
+    {
+      year: "2018 – 2024",
+      title: "Private Tutoring",
+      description: (
+        <>
+          Taught computer science to high school students with a personalized
+          approach, resulting in improved performance for 65% of students.
+        </>
+      ),
     },
   ];
 
