@@ -1,6 +1,5 @@
 import React from "react";
-import { Mail, Phone, Linkedin, MapPin } from "lucide-react"; // Added LinkedIn icon
-import { Link } from "react-router-dom"; // If you want to link to LinkedIn
+import { Mail, Phone, Linkedin, MapPin } from "lucide-react"
 
 export default function Contact() {
   return (
