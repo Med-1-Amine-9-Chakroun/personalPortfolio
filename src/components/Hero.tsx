@@ -26,7 +26,7 @@ export default function Hero() {
               Contact Me
             </a>
             <a
-              href="/personalPortfolio/CV_Chakroun_Mohamed_Amine.pdf"
+              href={`${import.meta.env.BASE_URL}CV_Chakroun_Mohamed_Amine.pdf`}
               download
               className="relative z-10 px-6 py-3 border-2 border-blue-600 text-white dark:text-purple-400 rounded-lg hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-colors"
             >
