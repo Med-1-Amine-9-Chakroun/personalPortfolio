@@ -25,13 +25,13 @@ export default function Hero() {
             >
               Contact Me
             </a>
-            <a
+            {/* <a
               href={`/personalPortfolio/assetsCV_Chakroun_Mohamed_Amine.pdf`}
               download
               className="relative z-10 px-6 py-3 border-2 border-blue-600 text-white dark:text-purple-400 rounded-lg hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-colors"
             >
               Download CV
-            </a>
+            </a> */}
           </div>
           <div className="flex gap-4 relative z-10 ">
             <a
@@ -48,13 +48,13 @@ export default function Hero() {
             >
               <Linkedin className="w-6 h-6" />
             </a>
-            <a
+            {/* <a
               href="/CV_Chakroun_Mohamed_Amine.pdf"
               download
               className="social-link"
             >
               <FileText className="w-6 h-6" />
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="lg:w-1/2 mt-12 lg:mt-0">
